@@ -55,8 +55,9 @@ p {
 .caption,
 figcaption {
     font-size: 0.9rem;
-    color: #8e8a8a;
+    color: #797575;
     padding: 5px 0;
+    justify-content: left;
 }
 
 
