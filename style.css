@@ -79,7 +79,7 @@ figcaption {
 
 .container.image {
     max-width: 1000px;
-    padding: 0;
+    padding: 10;
 }
 
 .container.image .caption,
@@ -96,11 +96,13 @@ figcaption {
     background-color: #f7f7f7;
     /* Calc background is slightly gray and the full width of the page */
     padding: 22px 0;
+    margin-left: 10px;
     /* 22px of vertical padding only */
 }
 
 .calculator .row .item img {
-    margin: 5px auto;
+    margin: 10px auto;
+    margin-left: 10px;
     /* Air out above and below the image for each item */
 }
 
@@ -114,7 +116,24 @@ figcaption {
     /* Allow the input field in the qty container to take up 90% of the width */
 }
 
+.item{
+    padding: 60px;
+    margin: 10px; 
+}
 
+.itemq{
+    padding: 60px;
+    margin: 10px;
+
+}
+.itembx{
+    padding: 60px;
+    margin: 10px;
+}
+.itembk{
+    padding: 60px;
+    margin: 10px;
+}
 /**
 * Styling the input fields to be the full width of the parent, with 7px of padding and turns off the default border 
 */
@@ -123,7 +142,7 @@ figcaption {
     display: block;
     width: 100%;
     margin: 0;
-    padding: 7px;
+    padding: 5px;
     border: 0;
 }
 
@@ -172,7 +191,7 @@ figcaption {
 */
 
 .calculator h3 {
-    margin: 0;
+    margin: 2;
 }
 
 
@@ -181,8 +200,8 @@ figcaption {
 */
 
 .calculator .row {
-    margin-bottom: 15px;
-    flex-basis: 30%;
+    margin-bottom: 20px;
+    flex-basis: 50%;
 }
 
 
