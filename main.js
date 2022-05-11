@@ -45,12 +45,12 @@ inputs.forEach(function (input) {
        freshdirect_span.innerHTML = round_number(freshdirect_cost); 
        freshdirect.classList.add("active");
        
-       const peapod = this_row.querySelector(".peapod"); 
-       const peapod_span = peapod.querySelector("span");
-       const peapod_price = parseFloat(peapod.dataset.price); 
-       const peapod_cost = qty * peapod_price;
-       peapod_span.innerHTML = round_number(peapod_cost); 
-       peapod.classList.add("active");
+       const obed = this_row.querySelector(".1bed"); 
+       const obed_span = obed.querySelector("span");
+       const obed_price = parseFloat(obed.dataset.price); 
+       const obed_cost = qty * obed_price;
+       obed_span.innerHTML = round_number(obed_cost); 
+       obed.classList.add("active");
             // lets find the least expensive retailer. we default amazon, bc of the alphabet (no other reason)
        
             let cheap = amazon;
